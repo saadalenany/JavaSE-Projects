@@ -1,0 +1,28 @@
+.button{
+    -fx-background-color: rgba(63, 159, 191, 0.5);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: "Ariel";
+}
+.button:focused{
+    -fx-background-color: rgba(63, 159, 191, 0.65);
+}
+.button:hover{
+    -fx-background-color: rgba(63, 159, 191, 0.9);
+    -fx-cursor :hand;
+}
+.text-field , .date-picker , .combo-box{
+    -fx-opacity: 0.8;
+}
+#username{
+    -fx-background-image:url('/View/username.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-font-size: 25;
+}
+#password{
+    -fx-background-image:url('/View/key.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-font-size: 25;
+}
